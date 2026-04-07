@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//`include "halfadder.sv"
+`include "halfadder.sv"
 
 module testbench();
 
@@ -67,7 +67,7 @@ endtask
 // Write Checker
 initial begin
 
-    #1;
+    
 
     test_00(); #15;
     test_01(); #15;
